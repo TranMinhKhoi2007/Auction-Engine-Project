@@ -1,0 +1,33 @@
+/build*/
+/logs/
+/*.txt
+/*.xml
+/*.json
+/edit_*.py
+/resume_*.py
+/publish_*.ps1
+/publish-backup/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.lock
+**/lan-tls/
+**/client-trust/
+Start-LAN-Client.cmd
+Start-LAN-Server.cmd
+lan-connection.txt
+
+# Security & Private Secrets
+*.env
+ngrok_token.txt
+*.log
+app_err.log
+app_out.log
+
+# Binaries & Packaging
+/tools/ngrok.exe
+/tools/
+/dist/
+*.zip
+AuctionServer
+.vscode/
