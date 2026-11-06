@@ -1,4 +1,4 @@
-# 🏛️ AUCTION ENGINE CODEX 2.0
+# AUCTION ENGINE
 > **Hệ thống Đấu giá Trực tuyến Thời gian thực Chuẩn Kiến trúc Đa tầng (Clean Architecture)**  
 > **Bài tập lớn môn Lập trình Hướng đối tượng (OOP) • Khoa Công nghệ Thông tin — UTC2**
 
@@ -13,7 +13,7 @@
 
 ## 📌 1. Giới thiệu Tổng quan Đề tài
 
-**Auction Engine Codex 2.0** là giải pháp phần mềm đấu giá trực tuyến theo thời gian thực được thiết kế và phát triển phục vụ học phần **Lập trình Hướng đối tượng (OOP)** tại **Trường Đại học Giao thông Vận tải - Phân hiệu tại TP.HCM (UTC2)**.
+**Auction Engine** là giải pháp phần mềm đấu giá trực tuyến theo thời gian thực được thiết kế và phát triển phục vụ học phần **Lập trình Hướng đối tượng (OOP)** tại **Trường Đại học Giao thông Vận tải - Phân hiệu tại TP.HCM (UTC2)**.
 
 Dự án áp dụng chặt chẽ các nguyên lý thiết kế hướng đối tượng nâng cao (**SOLID**, **Clean Architecture**, **Mẫu thiết kế GoF**), phân tách hoàn toàn giữa lõi tính toán nghiệp vụ (Domain & Application) và giao diện hiển thị (Presentation Qt6), giao tiếp full-duplex thông qua giao thức **WebSocket JSON-RPC 2.0** có bảo mật TLS/WSS và cơ chế lưu trữ bền vững **SQLite 3 WAL Mode**.
 
