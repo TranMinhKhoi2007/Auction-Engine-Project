@@ -1,7 +1,9 @@
 
 /build*/
 /logs/
-/*.txt
+/\*.txt
+!CMakeLists.txt
+!/**/CMakeLists.txt
 /*.xml
 /*.json
 /edit_*.py
@@ -102,4 +104,5 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
 
