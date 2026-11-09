@@ -528,120 +528,123 @@ void AppShell::seedDemoAuctions() {
 
     const std::vector<Preset> presets = {
         {
-            application::ProductType::DoCo,
-            "Bình gốm hoa lam thời Minh (Thế kỷ 15)",
-            "Cổ vật gốm sứ hoa lam men ngọc thời Minh tuyệt hảo, hoa văn rồng cuộn tinh xảo nguyên bản, có chứng thư giám định bảo tàng.",
-            50000000, 2000000, 5000000, 10, 300,
-            15, "Cảnh Đức Trấn, Trung Hoa", "Nguyên vẹn 98%", true,
-            "", 0, "", "", false, "", "", 0, false,
-            ":/demo/vase.jpg"
-        },
-        {
-            application::ProductType::TranhNgheThuat,
-            "Tranh sơn mài Phố Cổ Hà Nội - Danh họa Bùi Xuân Phái",
-            "Kiệt tác sơn mài khắc họa không gian cổ kính Hà thành mùa thu 1972, có chữ ký tác giả góc phải và giấy chứng nhận xác thực hội đồng mỹ thuật.",
-            120000000, 5000000, 10000000, 15, 360,
+            application::ProductType::ThietBiCongNghe,
+            "Siêu xe Porsche 911 GT3 RS (992) Weissach Package",
+            "Tuyệt tác tốc độ khí động học chủ động DRS, động cơ 4.0L hút khí tự nhiên 518 mã lực, mâm đúc ma-giê siêu nhẹ, nhập khẩu Đức mới 100%.",
+            18500000000LL, 200000000LL, 1000000000LL, 15, 600,
             0, "", "", false,
-            "Bùi Xuân Phái", 1972, "Sơn mài trên gỗ dổi", "80cm x 120cm", true,
-            "", "", 0, false,
-            ":/demo/art.jpg"
+            "", 0, "", "", false,
+            "Porsche", "911 GT3 RS (992)", 36, true,
+            ":/demo/porsche_911.jpg"
         },
         {
             application::ProductType::ThietBiCongNghe,
-            "MacBook Pro 16 inch M3 Max 64GB / 1TB SSD Space Black",
-            "Bản max cấu hình M3 Max nguyên seal Fullbox, bảo hành chính hãng Apple Care+ đến 2026, xuất hóa đơn VAT đầy đủ.",
-            65000000, 1000000, 5000000, 10, 240,
+            "Xe địa hình hạng sang Mercedes-AMG G63 V8 Biturbo",
+            "Biểu tượng SUV quyền lực động cơ V8 Biturbo 577 mã lực, màu đen Obsidian Metallic, nội thất da Nappa Designo thủ công, Fullbox sổ hãng.",
+            11800000000LL, 100000000LL, 800000000LL, 15, 480,
             0, "", "", false,
             "", 0, "", "", false,
-            "Apple", "MacBook Pro 16 M3 Max", 24, true,
-            ":/demo/macbook.jpg"
+            "Mercedes-AMG", "G63 V8 Biturbo", 24, true,
+            ":/demo/mercedes_g63.jpg"
         },
         {
-            application::ProductType::DoCo,
-            "Trống đồng Đông Sơn loại 1 (Thời kỳ Văn Lang)",
-            "Báu vật khảo cổ niên đại 2500 năm, hoa văn ngôi sao 14 cánh và chim Lạc sắc nét, bảo vật quốc gia phiên bản đấu giá độc quyền.",
-            250000000, 10000000, 25000000, 15, 420,
-            5, "Đông Sơn, Thanh Hóa", "Gỉ đồng phong hóa tự nhiên tuyệt đẹp", true,
-            "", 0, "", "", false, "", "", 0, false,
-            ":/demo/drum.jpg"
-        },
-        {
-            application::ProductType::TranhNgheThuat,
-            "Tranh lụa Thiếu nữ bên hoa huệ - Danh họa Tô Ngọc Vân",
-            "Bản phục chế thủ công cao cấp trên lụa tơ tằm Hà Đông nguyên bản, nét vẽ thanh tao đài các đặc trưng phong cách Mỹ thuật Đông Dương.",
-            85000000, 3000000, 8000000, 10, 300,
+            application::ProductType::ThietBiCongNghe,
+            "Siêu xe thể thao Ferrari F8 Tributo V8 Turbo Rosso Corsa",
+            "Siêu phẩm nước Ý màu đỏ huyền thoại Rosso Corsa, động cơ V8 Twin-Turbo 710 mã lực, tăng tốc 0-100km/h chỉ 2.9 giây, đầy đủ chứng chỉ xác thực Maranello.",
+            26000000000LL, 500000000LL, 2000000000LL, 20, 600,
             0, "", "", false,
-            "Tô Ngọc Vân", 1943, "Màu nước trên lụa", "60cm x 90cm", true,
-            "", "", 0, false,
-            ":/demo/art_silk.jpg"
+            "", 0, "", "", false,
+            "Ferrari", "F8 Tributo", 36, true,
+            ":/demo/ferrari_f8.jpg"
+        },
+        {
+            application::ProductType::ThietBiCongNghe,
+            "Xe siêu sang Rolls-Royce Phantom VIII Series I",
+            "Đỉnh cao cơ khí quý tộc Hoàng Gia Anh, trần sao Starlight Headliner thủ công, động cơ V12 6.75L êm ái tuyệt đối, không gian cách âm đỉnh cao thế giới.",
+            45000000000LL, 500000000LL, 3000000000LL, 20, 600,
+            0, "", "", false,
+            "", 0, "", "", false,
+            "Rolls-Royce", "Phantom VIII", 48, true,
+            ":/demo/rolls_royce.jpg"
+        },
+        {
+            application::ProductType::ThietBiCongNghe,
+            "Đồng hồ Rolex Cosmograph Daytona Mặt Số Trắng Panda",
+            "Mẫu đồng hồ bấm giờ thể thao cơ khí huyền thoại, vành gốm Cerachrom đen, bộ máy Calibre 4130 đạt chứng nhận Superlative Chronometer, Fullbox thẻ xanh 2024.",
+            850000000LL, 20000000LL, 50000000LL, 10, 360,
+            0, "", "", false,
+            "", 0, "", "", false,
+            "Rolex", "Daytona 116500LN", 60, true,
+            ":/demo/rolex_daytona.jpg"
+        },
+        {
+            application::ProductType::ThietBiCongNghe,
+            "Đồng hồ Patek Philippe Nautilus 5711/1R Vàng Hồng 18K",
+            "Kiệt tác Haute Horlogerie Thụy Sĩ vỏ và dây vàng hồng nguyên khối, mặt số nâu chocolate dập vân ngang kinh điển, bộ máy tự động Calibre 324 S C cực kỳ chuẩn xác.",
+            3200000000LL, 50000000LL, 200000000LL, 15, 420,
+            0, "", "", false,
+            "", 0, "", "", false,
+            "Patek Philippe", "Nautilus 5711/1R", 60, true,
+            ":/demo/patek_philippe.jpg"
+        },
+        {
+            application::ProductType::ThietBiCongNghe,
+            "Đồng hồ Audemars Piguet Royal Oak Extra-Thin 15202ST",
+            "Thiết kế vành bát giác 8 ốc vít trứ danh của huyền thoại Gérald Genta, mặt số xanh Petite Tapisserie thủ công, cỗ máy Calibre 2121 siêu mỏng lịch sử.",
+            1950000000LL, 50000000LL, 150000000LL, 15, 360,
+            0, "", "", false,
+            "", 0, "", "", false,
+            "Audemars Piguet", "Royal Oak 15202ST", 60, true,
+            ":/demo/audemars_piguet.jpg"
         },
         {
             application::ProductType::ThietBiCongNghe,
             "iPhone 16 Pro Max 1TB Titan Tự Nhiên (VN/A)",
-            "Siêu phẩm Apple vỏ titan chuẩn hàng không vũ trụ, chip A18 Pro, nguyên hộp seal chưa kích hoạt, bảo hành 12 tháng chính hãng.",
-            42000000, 1000000, 4000000, 10, 240,
+            "Flagship Apple khung viền titan cấp hàng không vũ trụ, chip A18 Pro 3nm siêu mạnh, cụm 3 camera 48MP zoom quang 5x, hàng nguyên seal hộp bảo hành 12 tháng chính hãng.",
+            42000000LL, 1000000LL, 4000000LL, 10, 240,
             0, "", "", false,
             "", 0, "", "", false,
             "Apple", "iPhone 16 Pro Max", 12, true,
-            ":/demo/iphone.jpg"
-        },
-        {
-            application::ProductType::DoCo,
-            "Bình vôi gốm men rạn thời Lý (Thế kỷ 12)",
-            "Cổ vật gốm men rạn hoa nâu đặc trưng triều Lý, quai đắp nổi hình rồng cuộn, men bóng tự nhiên nguyên vẹn không sứt mẻ.",
-            38000000, 1500000, 3500000, 10, 300,
-            12, "Thăng Long, Đại Việt", "Nguyên vẹn 95%", true,
-            "", 0, "", "", false, "", "", 0, false,
-            ":/demo/lime_pot.jpg"
+            ":/demo/iphone_16_pro.jpg"
         },
         {
             application::ProductType::ThietBiCongNghe,
-            "Máy ảnh Leica M11-P Rangefinder 60MP Safari Edition",
-            "Phiên bản máy ảnh cơ quang học thủ công sản xuất giới hạn tại Đức, tích hợp công nghệ ký số xác thực ảnh Content Credentials.",
-            220000000, 5000000, 20000000, 15, 360,
+            "MacBook Pro 16 inch M3 Max 128GB RAM / 2TB Space Black",
+            "Cỗ máy trạm di động đỉnh cao của Apple với 16-core CPU, 40-core GPU, màn hình Liquid Retina XDR 120Hz, vỏ nhôm anot hóa chống bám vân tay, mới 100% nguyên seal.",
+            115000000LL, 2000000LL, 10000000LL, 10, 300,
             0, "", "", false,
             "", 0, "", "", false,
-            "Leica", "M11-P Safari", 36, true,
-            ":/demo/leica.jpg"
-        },
-        {
-            application::ProductType::TranhNgheThuat,
-            "Tranh sơn dầu Chợ nổi Cái Răng - Họa sĩ Nguyễn Trung",
-            "Bức họa khổ lớn miêu tả nhịp sống sông nước miền Tây rực rỡ sắc màu ban mai, từng đạt giải thưởng Triển lãm Mỹ thuật Toàn quốc.",
-            55000000, 2000000, 5000000, 10, 300,
-            0, "", "", false,
-            "Nguyễn Trung", 2018, "Sơn dầu trên toan", "100cm x 150cm", true,
-            "", "", 0, false,
-            ":/demo/art_floating.jpg"
-        },
-        {
-            application::ProductType::DoCo,
-            "Tượng Phật Thích Ca mạ vàng thời Hậu Lê (Thế kỷ 17)",
-            "Tượng đồng đúc thủ công mạ vàng lá cổ, gương mặt từ bi trang nghiêm, áo cà sa xếp nếp tinh xảo, báu vật tâm linh quý hiếm.",
-            95000000, 5000000, 9000000, 15, 360,
-            17, "Kinh Bắc, Đại Việt", "Lớp mạ vàng nguyên gốc", true,
-            "", 0, "", "", false, "", "", 0, false,
-            ":/demo/statue.jpg"
+            "Apple", "MacBook Pro 16 M3 Max", 24, true,
+            ":/demo/macbook_pro.jpg"
         },
         {
             application::ProductType::ThietBiCongNghe,
-            "Đồng hồ Rolex Submariner Date 41mm Vàng Trắng",
-            "Mẫu thợ lặn biểu tượng thế giới, mặt số đen và vành gốm Cerachrom xanh, máy tự động Calibre 3235 trữ cót 70 giờ, Fullbox sổ thẻ.",
-            380000000, 10000000, 30000000, 15, 420,
+            "Máy ảnh Leica M11 Rangefinder kèm ống kính Summicron 50mm",
+            "Tuyệt tác quang học thủ công chế tác tại Đức, cảm biến BSI CMOS 60MP Full-frame, tích hợp chip mã hóa bảo mật Content Authenticity, hoàn thiện đen mờ thanh lịch.",
+            280000000LL, 5000000LL, 25000000LL, 15, 360,
             0, "", "", false,
             "", 0, "", "", false,
-            "Rolex", "Submariner Date 126619LB", 60, true,
-            ":/demo/rolex.jpg"
+            "Leica", "Leica M11 + Summicron 50mm", 36, true,
+            ":/demo/leica_m11.jpg"
+        },
+        {
+            application::ProductType::DoCo,
+            "Trống đồng Đông Sơn Hoàng Gia (Thời kỳ Văn Lang)",
+            "Báu vật khảo cổ niên đại hơn 2300 năm, hoa văn ngôi sao mặt trời 14 tia, đàn chim Lạc bay ngược chiều kim đồng hồ, bảo vật quốc gia nguyên bản có kiểm định C-14.",
+            6500000000LL, 100000000LL, 500000000LL, 20, 600,
+            -3, "Đông Sơn, Thanh Hóa", "Gỉ đồng phong hóa tự nhiên tuyệt đẹp", true,
+            "", 0, "", "", false, "", "", 0, false,
+            ":/demo/dong_son_drum.jpg"
         },
         {
             application::ProductType::TranhNgheThuat,
-            "Tranh sơn mài khắc bạc Rừng Cọ Đồi Chè - Nguyễn Gia Trí",
-            "Tác phẩm sơn mài truyền thống kết hợp kỹ thuật thếp vàng bạc điêu luyện, tái hiện vẻ đẹp hùng vĩ của vùng trung du Bắc Bộ.",
-            195000000, 5000000, 15000000, 15, 360,
+            "Tranh lụa Thiếu nữ bên hoa huệ - Danh họa Tô Ngọc Vân",
+            "Bản phục chế bảo tàng thủ công độc bản trên lụa tơ tằm cổ truyền, tái hiện kiệt tác tiêu biểu của Mỹ thuật Đông Dương với dáng ngồi thiếu nữ Hà thành thanh tao đài các.",
+            350000000LL, 10000000LL, 30000000LL, 15, 360,
             0, "", "", false,
-            "Nguyễn Gia Trí", 1965, "Sơn mài khắc bạc thếp vàng", "90cm x 160cm", true,
+            "Tô Ngọc Vân", 1943, "Màu nước trên lụa tơ tằm", "60cm x 90cm", true,
             "", "", 0, false,
-            ":/demo/art_lacquer.jpg"
+            ":/demo/thieu_nu_hoa_hue.jpg"
         }
     };
 
