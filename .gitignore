@@ -11,6 +11,8 @@
 /publish_*.ps1
 /publish-backup/
 *.sqlite
+!data/auction.sqlite
+!resources/sql/*.sql
 *.sqlite-wal
 *.sqlite-shm
 *.sqlite.lock
