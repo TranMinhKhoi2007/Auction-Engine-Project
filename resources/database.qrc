@@ -1,0 +1,1 @@
+<RCC><qresource prefix="/database"><file alias="001_initial.sql">sql/001_initial.sql</file><file alias="002_product_images.sql">sql/002_product_images.sql</file></qresource></RCC>
