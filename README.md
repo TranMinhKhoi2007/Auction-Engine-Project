@@ -31,6 +31,7 @@ Dự án áp dụng chặt chẽ các nguyên lý thiết kế hướng đối t
 * **Cơ sở đào tạo**: Trường Đại học Giao thông Vận tải - Phân hiệu tại TP. Hồ Chí Minh (UTC2)
 * **Khoa**: Công nghệ Thông tin
 * **Bộ môn**: Công nghệ Thông tin
+* **Ngành**: Công nghệ Thông tin
 * **Học phần**: Lập trình Hướng đối tượng (OOP) • **Mã lớp**: `CQ.66.CNTT`
 * **Giảng viên hướng dẫn**: **ThS. Trần Thị Dung**
 * **Năm học**: 2026 - 2027
