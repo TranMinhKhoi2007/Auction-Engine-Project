@@ -446,18 +446,16 @@ void AppShell::resellItem(const application::AuctionDetailDto &item) {
         if (dialog->imagePath().isEmpty()) {
             const QString name = QString::fromStdString(item.productName).toLower();
             QString fallbackRes;
-            if (name.contains("bình gốm hoa lam") || name.contains("gốm thời minh")) fallbackRes = ":/demo/vase.jpg";
-            else if (name.contains("phố cổ hà nội") || name.contains("bùi xuân phái")) fallbackRes = ":/demo/lacquer.jpg";
+            if (name.contains("bình gốm hoa lam") || name.contains("gốm thời minh")) fallbackRes = ":/demo/dong_son_drum.jpg";
+            else if (name.contains("phố cổ hà nội") || name.contains("bùi xuân phái")) fallbackRes = ":/demo/art_silk.jpg";
             else if (name.contains("macbook")) fallbackRes = ":/demo/macbook.jpg";
             else if (name.contains("iphone")) fallbackRes = ":/demo/iphone.jpg";
             else if (name.contains("rolex")) fallbackRes = ":/demo/rolex.jpg";
             else if (name.contains("thiếu nữ bên hoa huệ") || name.contains("tô ngọc vân")) fallbackRes = ":/demo/art_silk.jpg";
-            else if (name.contains("tượng phật")) fallbackRes = ":/demo/statue.jpg";
             else if (name.contains("leica")) fallbackRes = ":/demo/leica.jpg";
-            else if (name.contains("bình vôi")) fallbackRes = ":/demo/lime_pot.jpg";
-            else if (name.contains("kết nạp đảng") || name.contains("nguyễn sáng")) fallbackRes = ":/demo/art_lacquer.jpg";
-            else if (name.contains("chợ nổi") || name.contains("nguyễn gia trí")) fallbackRes = ":/demo/art_floating.jpg";
-            else if (name.contains("máy chủ") || name.contains("server") || name.contains("dell poweredge")) fallbackRes = ":/demo/server.jpg";
+            else if (name.contains("bình vôi")) fallbackRes = ":/demo/dong_son_drum.jpg";
+            else if (name.contains("kết nạp đảng") || name.contains("nguyễn sáng")
+                     || name.contains("chợ nổi") || name.contains("nguyễn gia trí")) fallbackRes = ":/demo/art_silk.jpg";
 
             if (!fallbackRes.isEmpty()) {
                 dialog->setImagePath(fallbackRes);
